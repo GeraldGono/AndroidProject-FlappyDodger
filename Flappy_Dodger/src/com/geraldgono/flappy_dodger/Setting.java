@@ -43,7 +43,7 @@ public class Setting extends Activity {
 		}
 	}
 
-		public void main(View v) {
+	public void main(View v) {
 		finish();
 
 	}
