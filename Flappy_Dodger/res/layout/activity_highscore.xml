@@ -19,5 +19,18 @@
         android:layout_marginTop="55dp"
         android:text="@+string/hs"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+     <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif"
+        android:onClick="main"
+        android:text="Back"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic" />
 
 </RelativeLayout>
