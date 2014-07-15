@@ -33,5 +33,10 @@ public class HighScore extends Activity {
 		t1 = (TextView) findViewById(R.id.textView1);
 		t1.setText("Highscore :" + hscore);
 	}
+	
+	public void main(View v) {
+		finish();
+
+	}
 
 }
